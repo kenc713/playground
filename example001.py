@@ -1,8 +1,8 @@
 def greet(name):
-    print(f"Hello, {name}!")
+    print(f"Hi, {name}! Welcome!")  # 同じ行を変更
 
 def add(a, b):
-    return a + b
+    return a + b + 2  # 同じ行を変更
 
 def multiply(a, b):
     return a * b
