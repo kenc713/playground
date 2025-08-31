@@ -1,14 +1,13 @@
 def greet(name):
-    print(f"Hello, {name}! How are you?")
+    print(f"Hi, {name}! Welcome!")  # 同じ行を変更
 
 def add(a, b):
-    return a + b
+    return a + b + 1  # 同じ行を変更
 
 def multiply(a, b):
-    # かけ算の結果を文字列にする
-    return str(a * b)
+    return a * b
 
 if __name__ == "__main__":
     greet("Alice")
-    print("Sum:", add(10, 5))  # 数値を変更
+    print("Sum:", add(2, 3))
     print("Product:", multiply(2, 3))
