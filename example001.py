@@ -1,5 +1,5 @@
 def greet(name):
-    print(f"Hello, {name}! How are you?")  # 同じ行を変更
+    print(f"Hi, {name}! Welcome!")  # 同じ行を変更
 
 def add(a, b):
     return a + b + 2  # 同じ行を変更
